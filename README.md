@@ -1,7 +1,7 @@
 ![Project Overview](weather_prediction.webp)
 # ⚡ Predicting Surplus Energy Using Weather Data
 
-### CE888 — Data Science Project
+Data Science Project
 
 A data science and machine learning project investigating whether historical weather and energy data can be used to predict **surplus renewable energy at least 24 hours in advance**.
 
