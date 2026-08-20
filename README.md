@@ -272,3 +272,114 @@ Therefore, model evaluation should pay particular attention to:
 - Prediction reliability
 
 The final model should prioritise reliable identification of genuine surplus periods rather than simply maximising overall accuracy.
+
+# 🛠️ Technologies & Libraries
+
+The project is implemented in **Python** using **Jupyter Notebook**.
+
+### Programming
+
+- 🐍 Python
+- 📓 Jupyter Notebook
+
+### Data Science
+
+- NumPy
+- Pandas
+- Scikit-learn
+
+### Visualisation
+
+- Matplotlib
+- Seaborn
+
+### Main Libraries
+
+| Library | Purpose |
+|---|---|
+| **NumPy** | Numerical computing and array operations |
+| **Pandas** | Data manipulation and analysis |
+| **Scikit-learn** | Machine learning and model evaluation |
+| **Matplotlib** | Data visualisation |
+| **Seaborn** | Statistical visualisation |
+
+---
+
+# 🚀 How to Run the Project
+
+## Option 1 — Jupyter Notebook
+
+If Jupyter Notebook is installed on your computer:
+
+1. Clone or download this repository.
+2. Install the required Python libraries.
+3. Place the Brighton CSV files in the required directory.
+4. Open the notebooks in Jupyter.
+5. Run the data-exploration notebook first.
+6. Generate the required training, validation, and test datasets.
+7. Run the modelling and analysis notebooks.
+
+8. ## Option 2 — Google Colab
+
+The project can also be run using **Google Colab**.
+
+Open:
+
+[Google Colab](https://colab.research.google.com/)
+
+Upload the project notebooks and required datasets.
+
+The expected data directory is:
+
+```text
+weatherdata_for_students/
+└── brighton/
+    ├── Brighton CSV files
+    └── ...
+```
+The data-exploration notebook should be run first so that the required training, validation, and test datasets can be generated.
+
+# 📚 References
+
+The project draws on research and technical sources relating to **wind-energy generation, solar-energy systems, and UK household energy consumption**.
+
+### Wind Energy
+
+[Wind Resource and Wind Power Generation Assessment for Education in Engineering](https://www.mdpi.com/2071-1050/13/5/2444)
+
+### Solar Energy
+
+[Calculation of Electrical Energy with Solar Power Plant Design](https://ieeexplore.ieee.org/abstract/document/7828701)
+
+### Solar Panel Efficiency
+
+[Efficiency Improvement for Solar Cell Panels by Cooling](https://ieeexplore.ieee.org/abstract/document/8724625)
+
+### UK Household Energy Consumption
+
+[Energy Consumption in UK Households: Impact of Domestic Electrical Appliances](https://www.sciencedirect.com/science/article/pii/0306261996000013)
+
+# 🎓 Academic Project
+
+**Module:** CE888 — Data Science
+
+**Project:** Predicting Surplus Energy Using Weather Data
+
+The project investigates the application of **data science, machine learning, weather analysis, and renewable-energy modelling** to support decision-making in a potential free-energy service.
+
+---
+
+## 👩‍💻 Author
+
+**Zeinab Dast Mozd**
+
+MSc Artificial Intelligence
+
+Research interests include:
+
+- Machine Learning
+- Artificial Intelligence
+- Data Science
+- Natural Language Processing
+- Large Language Models
+- AI for Energy & Sustainability
