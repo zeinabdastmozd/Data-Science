@@ -1,3 +1,4 @@
+![Project Overview](weather_prediction.webp)
 # ⚡ Predicting Surplus Energy Using Weather Data
 
 ### CE888 — Data Science Project
@@ -272,6 +273,8 @@ Therefore, model evaluation should pay particular attention to:
 - Prediction reliability
 
 The final model should prioritise reliable identification of genuine surplus periods rather than simply maximising overall accuracy.
+
+![Project Overview](weather_prediction.webp)
 
 # 🛠️ Technologies & Libraries
 
