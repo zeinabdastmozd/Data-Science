@@ -25,14 +25,14 @@ The company's primary concern is **minimising false positives**, because incorre
 
 The main objective of this project is:
 
-> **To predict whether sufficient surplus renewable energy will be available at least 24 hours in advance using historical weather and energy data.**
+> **To predict whether sufficient surplus renewable energy will be available at least 24 hours in advance using historic records in the area from 2010 until now for Briton city.**
 
 The project focuses particularly on **solar radiation** as the main renewable-energy source used for the final energy estimation.
 
 The overall workflow is:
 
 ```text
-Historical Weather & Energy Data
+Historical Weather Data
               │
               ▼
        Data Exploration
@@ -63,7 +63,7 @@ Historical Weather & Energy Data
 ```
 # Dataset
 
-The project uses historical weather and energy records provided for the **Brighton area**, covering data from approximately **2000 onwards**.
+The project uses historical weather records provided for the **Brighton area**, covering data from approximately **2010 onwards**.
 
 The dataset contains weather-related variables that can be used to investigate the relationship between weather conditions and renewable energy availability.
 
@@ -85,20 +85,19 @@ The project includes the following stages:
 
 The historical data is explored to understand:
 
-- Missing values
+- Missing values/ Filling missing values
 - Data distributions
 - Relationships between variables
 - Temporal patterns
-- Renewable-energy availability
 - Weather conditions
 
 ### 2. Data Preparation
 
 The data is divided into appropriate datasets for:
 
-- Training
-- Validation
-- Testing
+- Training   9 first_years
+- Validation 4 next_years
+- Testing    remaining years
 
 ### 3. Feature Engineering
 
@@ -106,9 +105,9 @@ Weather variables are investigated and transformed where necessary to create use
 
 ### 4. Prediction
 
-Machine learning techniques are used to predict future energy availability based on historical observations.
+Machine learning **baseline and machine learning models** techniques are used to predict future energy availability.
 
-The main requirement is to provide a prediction **at least 24 hours ahead**.
+The main requirement is to provide a prediction **at least 24 hours ahead**, for the machine learning I took window size of 24 to predict the next 24 hour.
 
 ### 5. Energy Estimation
 
@@ -276,6 +275,8 @@ The final model should prioritise reliable identification of genuine surplus per
 
 ![Project Overview](Picture2.png)
 
+In summary, the initial analysis identified seven hours of surplus energy. After accounting for false positives, this was reduced to three hours during which the company can offer free energy. The following plot illustrates this.
+
 # 🛠️ Technologies & Libraries
 
 The project is implemented in **Python** using **Jupyter Notebook**.
@@ -335,7 +336,7 @@ Upload the project notebooks and required datasets.
 The expected data directory is:
 
 ```text
-weatherdata_for_students/
+weatherdata/
 └── brighton/
     ├── Brighton CSV files
     └── ...
@@ -363,8 +364,6 @@ The project draws on research and technical sources relating to **wind-energy ge
 [Energy Consumption in UK Households: Impact of Domestic Electrical Appliances](https://www.sciencedirect.com/science/article/pii/0306261996000013)
 
 # 🎓 Academic Project
-
-**Module:** CE888 — Data Science
 
 **Project:** Predicting Surplus Energy Using Weather Data
 
