@@ -274,7 +274,7 @@ Therefore, model evaluation should pay particular attention to:
 
 The final model should prioritise reliable identification of genuine surplus periods rather than simply maximising overall accuracy.
 
-![Project Overview](weather_prediction.webp)
+![Project Overview](Picture2.png)
 
 # 🛠️ Technologies & Libraries
 
